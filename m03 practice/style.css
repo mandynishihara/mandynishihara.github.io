@@ -1,17 +1,12 @@
 
 <html>
 <head>
-
-<meta charset="utf-8">
   <title>CSS</title>
+<style>
+  h1 { color:blue }
+</style>
 </head>
 <body>
-<h1 color: blue> First HTML using CSS</h1>
-<nav>
-</nav>
-<main>
-</main>
-
 <hr>  
 <footer>
 </footer>
