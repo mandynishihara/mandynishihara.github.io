@@ -34,9 +34,9 @@
  
 }
 #title {
- font-family: 'JustLettersMedium'; 
- font-weight: normal; 
- font-style: normal; 
+    font-family: 'SofiaRegular';
+   font-weight: normal;
+   font-style: normal;
  font-size:36px;
  position:fixed;
  top:0px;
