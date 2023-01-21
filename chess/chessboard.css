@@ -46,3 +46,7 @@
  text-align:center; 
  z-index:10;
 }
+img {
+ margin-left: 5px;
+ margin-top:10px;
+ }
