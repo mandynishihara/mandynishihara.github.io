@@ -1,3 +1,6 @@
+.clear{
+  clear:both;
+}
 .row{
   position:relative;
   margin-left:10%;
@@ -7,7 +10,7 @@
   border: 1px solid black;
   width:10%;
   height: 60px;
-  bacxkground-color:white;
+  background-color:white;
   float:left;
 }
 .black{
@@ -21,9 +24,6 @@
  border:solid 1px;
  padding: 10px;
  margin:10px;
- position:fixed;
- bottom:0px
- 
 }
 #container {
  margin-top:20%;
