@@ -27,10 +27,11 @@
  text-align:center;
 }
 #container {
- margin-top:20%;
- margin-left:10%;
+ margin-top:10%;
+ margin-left:20%;
  margin-right:10%;
  margin-bottom:5%;
+ 
 }
 #title {
  font-family: 'JustLettersMedium'; 
@@ -52,5 +53,5 @@ img {
  margin-top:10px;
  }
 body {
- background-image:url("https://i.pinimg.com/originals/4d/1a/c7/4d1ac756cbd47b149ab2d8ce4b10954d.jpg");
+  background-image:url("https://i.pinimg.com/originals/4d/1a/c7/4d1ac756cbd47b149ab2d8ce4b10954d.jpg");
 }
