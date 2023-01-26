@@ -35,11 +35,11 @@
   background-color: #7d9b76
 }
 #feature{
-  background-color: #d2b48c
-  background-image: url("/m04/corgi.png")
-  background-position: right
-  background-repeat: no-repeat
-  background-size: contain
+  background-color: #d2b48c;
+  background-image: url("/m04/corgi.png");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 .column1{
   background-color: #ffe7e7
@@ -49,4 +49,7 @@
 }
 .column3{
   background-color: #ffd3cb
+}
+.body{
+  background-image: url("https://wallpapertag.com/wallpaper/full/2/7/a/143530-large-light-brown-background-2560x1440-for-hd.jpg");
 }
