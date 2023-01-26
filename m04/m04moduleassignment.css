@@ -37,6 +37,9 @@
 #feature{
   background-color: #D2B48C
   background-image: url("corgi.png")
+  background-position: right
+  background-repeat: no-repeat
+  background-size: contain
 }
 .column1{
   background-color: #ffe7e7
