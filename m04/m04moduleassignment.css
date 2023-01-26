@@ -53,3 +53,8 @@
 body{
   background-image: url("https://wallpapercave.com/wp/wp5904729.jpg");
 }
+h1 {
+   font-family: 'MuliRegular';
+   font-weight: normal;
+   font-style: normal;
+}
