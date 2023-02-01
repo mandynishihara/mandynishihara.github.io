@@ -4,7 +4,8 @@ var greeting;
 
 alert('Welcome User!')
 var message;
-prompt('What is your first name?')
+prompt('What is your first name?')= var firstname;
+prompt('What is your last name?')=var lastname;
 
 
 if (hourNow > 18) {
