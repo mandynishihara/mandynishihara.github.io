@@ -2,16 +2,16 @@ var today = new Date();
 var hourNow = today.getHours();
 var greeting;
 
-var message = (firstname + " " + lastname);
-var firstname;
-var lastname;
+var message = (first + " " + last);
+var first;
+var last;
 
 alert("Welcome User!");
-prompt("What is your first name", "first name");
-console.log(first name);
+prompt("What is your first name", "first");
+console.log(first);
 
-prompt("What is your last name", "last name");
-console.log(last name);
+prompt("What is your last name", "last");
+console.log(last);
 
 
 
