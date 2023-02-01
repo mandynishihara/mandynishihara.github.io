@@ -1,4 +1,4 @@
-var message = (first + " " + last);
+
 var first;
 
 alert("Welcome User!");
@@ -9,7 +9,7 @@ var last;
 prompt("What is your last name");
 console.log(last);
 
-
+var message = first + " " + last;
 document.write('<h3>' + message + '/<h3>');
 
 var today = new Date();
