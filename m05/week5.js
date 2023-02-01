@@ -3,10 +3,11 @@ var hourNow = today.getHours();
 var greeting;
 
 alert('Welcome User!')
-var message;
-prompt('What is your first name?')= var firstname;
-prompt('What is your last name?')=var lastname;
 
+prompt('What is your first name?')= var firstname;
+
+prompt('What is your last name?')=var lastname;
+var message = (firstname + lastname)
 
 if (hourNow > 18) {
     greeting = 'Good evening!';
