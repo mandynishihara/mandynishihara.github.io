@@ -3,7 +3,8 @@ var hourNow = today.getHours();
 var greeting;
 
 alert('Welcome User!')
-var firstname = prompt('What is your first name?'); var lastname= prompt('What is your last name?'); alert (firstname + '' +lastname);
+var firstname = prompt('What is your first name?'); 
+
 
 
 
