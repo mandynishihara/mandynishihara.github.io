@@ -1,16 +1,16 @@
 alert("Welcome User!");
 
-var firstName;
+var firstName=
 prompt("What is your first name");
 console.log(firstName);
 
-var lastName;
+var lastName=
 prompt("What is your last name");
 console.log(lastName);
 
 var message=
 (firstName + "" + lastName);
-console.log(message)
+
 
 
 var today = new Date();
