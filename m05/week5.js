@@ -9,7 +9,7 @@ prompt("What is your last name");
 console.log(lastName);
 
 var message=
-(firstName + "" + lastName);
+(firstName + " " + lastName);
 
 
 
