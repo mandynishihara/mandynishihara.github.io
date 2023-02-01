@@ -1,7 +1,6 @@
+alert("Welcome User!");
 
 var first;
-
-alert("Welcome User!");
 prompt("What is your first name");
 console.log(first);
 
