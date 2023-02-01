@@ -1,11 +1,11 @@
 var message = (first + " " + last);
 var first;
-var last;
 
 alert("Welcome User!");
 prompt("What is your first name", "first");
 console.log(first);
 
+var last;
 prompt("What is your last name", "last");
 console.log(last);
 
