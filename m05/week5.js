@@ -5,7 +5,8 @@ var greeting;
 
 alert("Welcome User!");
 
-prompt("What is your first name");
+var firstname = prompt("What is your first name");
+console.log(firstname);
 
 prompt("What is your last name");
 
