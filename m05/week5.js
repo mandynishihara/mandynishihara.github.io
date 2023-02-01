@@ -1,7 +1,3 @@
-var today = new Date();
-var hourNow = today.getHours();
-var greeting;
-
 var message = (first + " " + last);
 var first;
 var last;
@@ -12,6 +8,11 @@ console.log(first);
 
 prompt("What is your last name", "last");
 console.log(last);
+
+
+var today = new Date();
+var hourNow = today.getHours();
+var greeting;
 
 
 
