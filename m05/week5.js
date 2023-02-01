@@ -3,6 +3,7 @@ var hourNow = today.getHours();
 var greeting;
 
 alert('Welcome User!')
+var message = prompt('What is your first name?')
 
 
 if (hourNow > 18) {
