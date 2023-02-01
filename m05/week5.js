@@ -4,9 +4,6 @@ var greeting;
 var message;
 
 alert("Welcome User!");
-var firstname=  prompt('What is your first name');
-var lastname= prompt('What is your last name');
-
 
 
 
