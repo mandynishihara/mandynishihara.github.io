@@ -8,8 +8,6 @@ var last;
 prompt("What is your last name");
 console.log(last);
 
-var message = (first + " " + last);
-document.write('<h3>' + message + '/<h3>');
 
 var today = new Date();
 var hourNow = today.getHours();
@@ -28,3 +26,6 @@ if (hourNow > 18) {
 }
 
 document.write('<h3>' + greeting + '</h3>');
+
+var message = (first + " " + last);
+document.write('<h3>' + message + '/<h3>');
