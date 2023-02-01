@@ -1,12 +1,12 @@
 alert("Welcome User!");
 
-var first;
+var firstName;
 prompt("What is your first name");
-console.log(first);
+console.log(firstName);
 
-var last;
+var lastName;
 prompt("What is your last name");
-console.log(last);
+console.log(lastName);
 
 
 var today = new Date();
@@ -27,5 +27,5 @@ if (hourNow > 18) {
 
 document.write('<h3>' + greeting + '</h3>');
 
-var message = (first + ' ' + last);
+var message = (firstName + ' ' + lastName);
 document.write('<h3>' + message + '</h3>');
