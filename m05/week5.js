@@ -5,6 +5,9 @@ var greeting;
 
 alert("Welcome User!");
 
+prompt("What is your first name");
+
+prompt("What is your last name");
 
 
 if (hourNow > 18) {
