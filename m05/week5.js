@@ -1,14 +1,14 @@
-var message = (first + " " + last);
 var first;
 
 alert("Welcome User!");
-prompt("What is your first name", "first");
+prompt("What is your first name");
 console.log(first);
 
 var last;
-prompt("What is your last name", "last");
+prompt("What is your last name");
 console.log(last);
 
+var message = (first + " " + last);
 
 var today = new Date();
 var hourNow = today.getHours();
