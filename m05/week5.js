@@ -8,8 +8,6 @@ alert("Welcome User!");
 var firstname = prompt("What is your first name");
 console.log(firstname);
 
-prompt("What is your last name");
-
 
 if (hourNow > 18) {
     greeting = 'Good evening!';
