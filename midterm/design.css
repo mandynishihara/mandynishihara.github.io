@@ -1,0 +1,60 @@
+* {
+    font-family: Arial, Verdana, sans-serif;
+    color: #665544;
+    text-align: center;}
+body {
+    width: 90%;
+    margin: 0 auto;}
+#content {
+    overflow: auto;}
+#nav, #feature, #footer {
+    margin: 1%;}
+.column1, .column2, .column3 {
+    width: 31.3%;
+    float: left;
+    margin: 1%;}
+.column3 {
+    margin-right: 0%;}
+li {
+    display: inline;
+    padding: 0.5em;}
+#nav, #footer {
+    background-color: #efefef;
+    padding: 0.5em 0;}
+#feature, .article {
+    height: 10em;
+    margin-bottom: 1em;
+    background-color: #efefef;}
+#content{
+background-color: #457d58
+}
+#nav{
+background-color: #a2c68c
+}
+#footer{
+background-color: #7d9b76
+}
+#feature{
+background-color: #d2b48c;
+background-image: url("/m04/corgi.png");
+background-position: right;
+background-repeat: no-repeat;
+background-size: contain;
+}
+.column1{
+background-color: #ffe7e7
+}
+.column2{
+background-color: #f6c4ba
+}
+.column3{
+background-color: #ffd3cb
+}
+body{
+background-image: url("https://wallpapercave.com/wp/wp5904729.jpg");
+}
+h1 {
+font-family: 'MuliRegular';
+font-weight: normal;
+font-style: normal;
+}
