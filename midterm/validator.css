@@ -13,11 +13,10 @@ body {
 }
 #nav, #feature, #footer {
     margin: 2%;}
-.column1, .column2, .column3, .column4, .column5 {
+.column1, .column2, .column3 {
     width: 31.3%;
     float: left;
-    margin: 1%;
-}
+    margin: 1%;}
 .column3 {
     margin-right: 0%;}
 li {
@@ -26,7 +25,7 @@ li {
 #nav, #footer {
     background-color: #efefef;
     padding: 0.5em 0;
-    font-size: medium;
+    font-size: small;
 }
 #feature, .article {
     height: 10em;
@@ -37,35 +36,25 @@ background-color: #a5a58d;
 }
 #nav{
 background-color: #c8bb9e;
-margin-top: 2%;
+margin-top: 5%;
 }
 #footer{
 background-color: #c8bb9e;
 }
 #feature{
 background-color: #eddcd2;
+background-image: url("https://www.pngplay.com/wp-content/uploads/13/Minimalist-Aesthetics-PNG-Photo-Image.png");
+background-position: right;
+background-repeat: no-repeat;
+background-size: contain;
 }
 .column1{
 background-color: #dedbd1;
-background-image: url("/midterm/m2resume.png");
-background-size:contain;
-background-repeat: no-repeat;
-background-position: right;
 }
 .column2{
 background-color: #dedbd1;
-background-image: url("/midterm/chessboard.png");
-background-size:contain;
-background-repeat: no-repeat;
-background-position: right;
 }
 .column3{
-background-color: #dedbd1;
-    }
-.column4{
-background-color: #dedbd1;
-}
-.column5{
 background-color: #dedbd1;
 }
 body{
@@ -75,12 +64,8 @@ h1 {
 font-family: 'MetropolisRegular';
    font-weight: normal;
    font-style: normal;
-}
-#box1{
+} 
+#works{
+    font-size: small;
     text-align: left;
-    margin-right: 50%;
     }
-#box2{
-text-align: left;
-margin-right: 50%;
-}
