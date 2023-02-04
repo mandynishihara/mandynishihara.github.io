@@ -6,56 +6,24 @@
     text-align: center;
 }
 body {
-    width: 70%;
+    width: 90%;
     margin: 0 auto;}
-#content {
-    overflow: auto;
-}
-#nav, #feature, #footer {
+#nav, #footer {
     margin: 2%;}
-/*.column1, .column2, .column3 {
-    width: 31.3%;
-    float: left;
-    margin: 1%;}*/
-.column3 {
-    margin-right: 0%;}
 li {
     display: inline;
     padding: 0.5em;}
 #nav, #footer {
     background-color: #efefef;
     padding: 0.5em 0;
-    font-size: small;
-}
-#feature, .article {
-    height: 10em;
-    margin-bottom: 1em;
-    background-color: #efefef;}
-#content{
-background-color: #a5a58d;
+    font-size: medium;
 }
 #nav{
 background-color: #c8bb9e;
-margin-top: 5%;
+margin-top: 2%;
 }
 #footer{
 background-color: #c8bb9e;
-}
-#feature{
-background-color: #eddcd2;
-background-image: url("https://www.pngplay.com/wp-content/uploads/13/Minimalist-Aesthetics-PNG-Photo-Image.png");
-background-position: right;
-background-repeat: no-repeat;
-background-size: contain;
-}
-.column1{
-background-color: #dedbd1;
-}
-.column2{
-background-color: #dedbd1;
-}
-.column3{
-background-color: #dedbd1;
 }
 body{
 background-image: url("https://cdn.wallpapersafari.com/54/35/AXfS8j.jpg");
@@ -64,9 +32,162 @@ h1 {
 font-family: 'MetropolisRegular';
    font-weight: normal;
    font-style: normal;
-} 
-.box{
-background-color: #8eb8fa;
 }
-#left1{
+.box{
+background-color:  #8eb8fa;
+height: 460px;
+width: 860px;
+margin: auto;
+
+}
+.left1{
+background-color:  #fcf4c2;
+background-image: url("homehtml.png");
+background-size: cover ;
+background-repeat: no-repeat;
+float: left;
+}
+.right1{
+background-color: #f4c2fc;
+background-image: url("homecss.png");
+background-size: cover;
+background-repeat: no-repeat;
+float: right;
+}
+.right1, .left1{
+    width: 400px;
+    height: 290px;
+}
+
+.left2{
+    background-color:  #fcf4c2;
+    background-image: url("artifacthtml.png");
+    background-size: cover ;
+    background-repeat: no-repeat;
+    float: left;
+    }
+    .right2{
+    background-color: #f4c2fc;
+    background-image: url("artifactcss.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: right;
+    }
+    .right2, .left2{
+        width: 405px;
+        height: 328px;
+    }
+    .left3{
+        background-color:  #fcf4c2;
+        background-image: url("moduleassignmentshtml.png");
+        background-size: cover ;
+        background-repeat: no-repeat;
+        float: left;
+        }
+        .right3{
+        background-color: #f4c2fc;
+        background-image: url("moduleassignmentscss.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        float: right;
+        }
+         .right3, .left3{
+            width: 405px;
+            height: 295px;
+        }
+        .left4{
+            background-color:  #fcf4c2;
+            background-image: url("courseworkhtml.png");
+            background-size: cover ;
+            background-repeat: no-repeat;
+            float: left;
+            }
+            .right4{
+            background-color: #f4c2fc;
+            background-image: url("courseworkcss.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            float: right;
+            }
+            .right4, .left4{
+                width: 405px;
+                height: 295px;
+            }
+            .left5{
+                background-color:  #fcf4c2;
+                background-image: url("creativepagehtml.png");
+                background-size: cover ;
+                background-repeat: no-repeat;
+                float: left;
+                }
+                .right5{
+                background-color: #f4c2fc;
+                background-image: url("creativepagecss.png");
+                background-size: cover;
+                background-repeat: no-repeat;
+                float: right;
+                }
+                .right5, .left5{
+                    width: 405px;
+                    height: 295px;
+                }
+                .left6{
+                    background-color:  #fcf4c2;
+                    background-image: url("abouthtml.png");
+                    background-size: cover ;
+                    background-repeat: no-repeat;
+                    float: left;
+                    }
+                    .right6{
+                    background-color: #f4c2fc;
+                    background-image: url("aboutcss.png");
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    float: right;
+                    }
+                    .right6, .left6{
+                        width: 420px;
+                        height: 295px;
+                    }
+                    .left7{
+                        background-color:  #fcf4c2;
+                        background-image: url("contacthtml.png");
+                        background-size: cover ;
+                        background-repeat: no-repeat;
+                        float: left;
+                        }
+                        .right7{
+                        background-color: #f4c2fc;
+                        background-image: url("contactcss.png");
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        float: right;
+                        }
+                        .right7, .left7{
+                            width: 407px;
+                            height: 295px;
+                        }
+                        .left8{
+                            background-color:  #fcf4c2;
+                            background-image: url("thankyouhtml.png");
+                            background-size: cover ;
+                            background-repeat: no-repeat;
+                            float: left;
+                            }
+                            .right8{
+                            background-color: #f4c2fc;
+                            background-image: url("thankyoucss.png");
+                            background-size: cover;
+                            background-repeat: no-repeat;
+                            float: right;
+                            }
+                            .right8, .left8{
+                                width: 400px;
+                                height: 295px;
+                            }
+
+
+
+.box, .left1, .right1, .left2, .right2, .left3, .right3, .left4, .right4, .left5, .right5, .left6 .right6, .left7, .right7, .left8, .right8{
+padding: 10px;
 }
