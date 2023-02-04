@@ -25,7 +25,7 @@ li {
 #nav, #footer {
     background-color: #efefef;
     padding: 0.5em 0;
-    font-size: small;
+    font-size: medium;
 }
 #feature, .article {
     height: 10em;
@@ -36,7 +36,7 @@ background-color: #a5a58d;
 }
 #nav{
 background-color: #c8bb9e;
-margin-top: 5%;
+margin-top: 2%;
 }
 #footer{
 background-color: #c8bb9e;
