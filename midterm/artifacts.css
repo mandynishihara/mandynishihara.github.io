@@ -6,19 +6,25 @@
     text-align: center;
 }
 body {
-    width: 70%;
+    width: 60%;
     margin: 0 auto;}
 #content {
-    overflow: auto;
+    overflow:auto;
 }
 #nav, #feature, #footer {
     margin: 2%;}
-.column1, .column2, .column3 {
+.column1, .column2, .column3, .column4, .column5 {
     width: 31.3%;
-    float:left;
+    float: left;
     margin: 1%;}
 .column3 {
-    margin-right: 0%;
+
+}
+.column4 {
+
+}
+.column5 {
+
 }
 li {
     display: inline;
@@ -58,6 +64,12 @@ background-color: #dedbd1;
 .column3{
 background-color: #dedbd1;
 }
+.column4{
+ background-color: #dedbd1;
+}
+.column5{
+background-color: #dedbd1;
+}
 body{
 background-image: url("https://cdn.wallpapersafari.com/54/35/AXfS8j.jpg");
 }
@@ -65,4 +77,13 @@ h1 {
 font-family: 'MetropolisRegular';
    font-weight: normal;
    font-style: normal;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+img{
+    
 }
