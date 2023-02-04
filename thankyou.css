@@ -7,9 +7,10 @@
 }
 body {
     width: 70%;
-    margin: 0 auto;}
+    margin: 0 auto;
+}
 #content {
-    overflow: auto;
+   overflow: auto;
 }
 #nav, #feature, #footer {
     margin: 2%;}
@@ -66,7 +67,7 @@ h1 {
 font-family: 'MetropolisRegular';
    font-weight: normal;
    font-style: normal;
-}
+} 
 #works{
     font-size: small;
     text-align: left;
