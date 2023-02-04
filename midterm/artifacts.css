@@ -15,10 +15,11 @@ body {
     margin: 2%;}
 .column1, .column2, .column3 {
     width: 31.3%;
-    float: left;
+    float:left;
     margin: 1%;}
 .column3 {
-    margin-right: 0%;}
+    margin-right: 0%;
+}
 li {
     display: inline;
     padding: 0.5em;}
@@ -36,7 +37,7 @@ background-color: #a5a58d;
 }
 #nav{
 background-color: #c8bb9e;
-margin-top: 5%;
+margin-top: 2%;
 }
 #footer{
 background-color: #c8bb9e;
@@ -64,11 +65,4 @@ h1 {
 font-family: 'MetropolisRegular';
    font-weight: normal;
    font-style: normal;
-} 
-#info{
-
 }
-#works{
-    font-size: small;
-    text-align: left;
-    }
