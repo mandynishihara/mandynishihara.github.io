@@ -53,6 +53,8 @@ background-color: #dedbd1;
 }
 .column2{
 background-color: #dedbd1;
+width: 96%;
+margin-left: 2%;
 }
 .column3{
 background-color: #dedbd1;
@@ -65,9 +67,7 @@ font-family: 'MetropolisRegular';
    font-style: normal;
 } */
 #info{
-font-size: medium;
-text-align: center;
-line-height: 1.9;
+
 }
 #works{
     font-size: small;
