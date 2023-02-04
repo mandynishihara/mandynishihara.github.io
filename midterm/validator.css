@@ -13,10 +13,10 @@ body {
 }
 #nav, #feature, #footer {
     margin: 2%;}
-.column1, .column2, .column3 {
+/*.column1, .column2, .column3 {
     width: 31.3%;
     float: left;
-    margin: 1%;}
+    margin: 1%;}*/
 .column3 {
     margin-right: 0%;}
 li {
@@ -65,7 +65,8 @@ font-family: 'MetropolisRegular';
    font-weight: normal;
    font-style: normal;
 } 
-#works{
-    font-size: small;
-    text-align: left;
-    }
+.box{
+background-color: #8eb8fa;
+}
+#left1{
+}
