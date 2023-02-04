@@ -36,7 +36,7 @@ background-color: #a5a58d;
 }
 #nav{
 background-color: #c8bb9e;
-margin-top: 5%;
+margin-top: 2%;
 }
 #footer{
 background-color: #c8bb9e;
@@ -65,7 +65,6 @@ font-family: 'MetropolisRegular';
    font-weight: normal;
    font-style: normal;
 } 
-#works{
-    font-size: small;
-    text-align: left;
+#box{
+text-align: left;
     }
