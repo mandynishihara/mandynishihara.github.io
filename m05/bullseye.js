@@ -1,5 +1,5 @@
 var table = Number(prompt('Choose a number between 0 and 10'));             // Unit of table
-var operator = prompt('Choose 'addition' or 'multiplication'; // Type of calculation
+var operator = prompt('Choose 'addition' or 'multiplication');  // Type of calculation
 var i = 0;                 // Set counter to 1
 var msg = '';              // Message
 
