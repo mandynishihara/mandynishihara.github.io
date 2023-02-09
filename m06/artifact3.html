@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="artifact3.2.css" />
+<meta name="description" content="Week 6 - BC - Rhombus">
+<meta charset="utf-8">
+<title>Rhombus</title>
+</head>
+<body>
+<label>What is the height of your Rhombus?</label><br>
+<input type="text" id="rHeight" value="5" size="10">
+<br><br>
+<label>Choose color for Even position</label><br>
+<select id="colorEven">
+<!--<option>--Choose a color--</option>-->
+<option value="#0000FF">Blue</option>
+<option value="#FF0000">Red</option>
+<option value="#FF9900">Orange</option>
+</select><br><br>
+
+<label>Choose color for Odd position</label><br>
+<select id="colorOdd">
+<!--<option>--Choose a color--</option>-->
+<option value="#FF0099">Pink</option>
+<option value="#33FF00">Green</option>
+<option value="#660099">Purple</option>
+</select>
+<br><br>
+<label>Choose a symbol for your Rhombus</label><br>
+<select id="symbol">
+<!--<option>--Choose a symbol--</option>-->
+<option value="*">*</option>
+<option value="$">$</option>
+<option value="@">@</option>
+</select>
+<br><br>
+<button onclick="createRhombus(document.getElementById('rHeight').value,
+document.getElementById('colorEven').value,
+document.getElementById('colorOdd').value,
+document.getElementById('symbol').value);">Display Rhombus</button><br><br>
+<div id="upLeft">m</div>
+<div id="upRight">n</div>
+<div id="downLeft">l</div>
+<div id="downRight">b</div>
+
+<!-- CALL YOUR JAVASCRIPT FILE IF YOU ARE USING A HOSTING ENVIRONMENT
+
+<script src=""></script>
+
+-->
+<script src="/m06/artifact3.js"></script>
+</body>
+</html>
