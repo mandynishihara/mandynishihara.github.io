@@ -1,0 +1,72 @@
+* {
+    font-family: 'MetropolisRegular';
+    font-weight: normal;
+    font-style: normal;
+    color: #000000;
+    text-align: center;
+}
+body {
+    width: 70%;
+    margin: 0 auto;}
+#content {
+    overflow: auto;
+}
+#nav, #feature, #footer {
+    margin: 2%;}
+.column1, .column2, .column3 {
+    width: 31.3%;
+    float: left;
+    margin: 1%;}
+.column3 {
+    margin-right: 0%;}
+li {
+    display: inline;
+    padding: 0.5em;}
+#nav, #footer {
+    background-color: #efefef;
+    padding: 0.5em 0;
+    font-size: medium;
+}
+#feature, .article {
+    height: 10em;
+    margin-bottom: 1em;
+    background-color: #efefef;}
+#content{
+background-color: #a5a58d;
+}
+#nav{
+background-color: #c8bb9e;
+margin-top: 2%;
+}
+#footer{
+background-color: #c8bb9e;
+}
+#feature{
+background-color: #eddcd2;
+background-image: url("https://www.pngplay.com/wp-content/uploads/13/Minimalist-Aesthetics-PNG-Photo-Image.png");
+background-position: right;
+background-repeat: no-repeat;
+background-size: contain;
+height: max-content;
+}
+.column1{
+background-color: #dedbd1;
+}
+.column2{
+background-color: #dedbd1;
+}
+.column3{
+background-color: #dedbd1;
+}
+body{
+background-image: url("https://cdn.wallpapersafari.com/54/35/AXfS8j.jpg");
+}
+h1 {
+font-family: 'MetropolisRegular';
+   font-weight: normal;
+   font-style: normal;
+} 
+#works{
+    font-size: small;
+    text-align: left;
+    }
