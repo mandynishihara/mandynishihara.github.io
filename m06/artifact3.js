@@ -6,7 +6,8 @@
 function createRhombus(pHeight, pColorEven, pColorOdd, pSymbol) {
     upRight(pHeight, pColorEven, pColorOdd, pSymbol);
     downRight(pHeight, pColorEven, pColorOdd, pSymbol);
-    
+    upLeft(pHeight, pColorEven, pColorOdd, pSymbol);
+    downLeft(pHeight, pColorEven, pColorOdd, pSymbol);
     }
     
     function upRight(pHeight, pColorEven, pColorOdd, pSymbol){
@@ -35,10 +36,10 @@ function createRhombus(pHeight, pColorEven, pColorOdd, pSymbol) {
     
     function downLeft(pHeight, pColorEven, pColorOdd, pSymbol){
         var rLine ="";
-        for (i=pHeight;i > 0;i--){
+        for (i=pHeight; i>0;i--){
         rLine +="<p>";
         //Create each line on the Rhombus
-        for(j=0;j<i;j++){
+        for(j=0;j<=pHeight;j++){
         
         //Is the position even or odd so we change the color
         if (j%2)
@@ -56,7 +57,7 @@ function createRhombus(pHeight, pColorEven, pColorOdd, pSymbol) {
         
         document.getElementById("downLeft").innerHTML = rLine;
         }
-        
+
     function downRight(pHeight, pColorEven, pColorOdd, pSymbol){
     var rLine ="";
     for (i=pHeight;i > 0;i--){
@@ -81,9 +82,9 @@ function createRhombus(pHeight, pColorEven, pColorOdd, pSymbol) {
     document.getElementById("downRight").innerHTML = rLine;
     }
 
-        function upLeft(pHeight, pColorEven, pColorOdd, pSymbol){
-            var rLine ="";
-            for (i=pHeight;i > 0;i--){
+function upLeft(pHeight, pColorEven, pColorOdd, pSymbol){
+    var rLine ="";
+        for (i=pHeight;i > 0;i--){
             rLine +="<p>";
             //Create each line on the Rhombus
             for(j=0;j<i;j++){
