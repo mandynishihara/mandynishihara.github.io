@@ -70,3 +70,6 @@ font-family: 'MetropolisRegular';
     font-size: small;
     text-align: left;
     }
+#errorMessages{
+    color:red;
+ }
