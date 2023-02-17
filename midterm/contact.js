@@ -63,7 +63,7 @@ validUsername = true;}
 
 //PASSWORD VALLIDATION//
 if(password==="null" || password==="" || password > 7 ||!/[a-z]/.test (password) || !/[A-Z]/.test (password) || !/[0-9]/.test (password) || !/[\!\*\$\#\%\.\,\&\?\-\_]/.test(password)) {
-errorMessages += "<br> Password is required and may not exceed 7 character";}
+errorMessages += "<br> Password is required and may not exceed 7 character (must include 1 lowercase, 1 uppercase, 1 number, and 1 special character)";}
 else {
 validPassword = true;}
 
@@ -82,13 +82,13 @@ validCity = true;}
 
 //STATE VALLIDATION//
 if(state===""){
-errorMessages += "<br> Select a state";}
+errorMessages += "<br> State is required";}
 else{
 validState = true;}
 
 //COUNTRY VALLIDATION//
 if(country===""){
-errorMessages += "<br> Select a country";}
+errorMessages += "<br> Country is required";}
 else{
 validCountry = true;}
 
