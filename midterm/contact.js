@@ -29,61 +29,73 @@ function validateForm(){
     var code=document.getElementById("zip").value;
 
     //3) do the validation
-    if ( !/^[a-zA-Z]+$/.test (firstname) ||firstname==="null" ||firstname==="" ||firstname.length > 20){
-    errorMessages += "First name is required and may contain only letters and not exceed 20 characters";
+
+//FIRSTNAME VALLIDATION//
+if ( !/^[a-zA-Z]+$/.test (firstname) ||firstname==="null" ||firstname==="" ||firstname.length > 20){
+errorMessages += "First name is required and may contain only letters and not exceed 20 characters";
     }
-    else{
-        validFirstname = true;}
+else{
+validFirstname = true;}
 
-    if(!/^[a-zA-Z]+$/.test (lastname) ||lastname==="null" || lastname===""|| lastname.length > 50){
-    errorMessages += "<br>Last name is required and may contain only letters and may not exceed 50 character";}
-    else{
-        validLastname= true;}
+//LASTNAME VALLIDATION//
+if(!/^[a-zA-Z]+$/.test (lastname) ||lastname==="null" || lastname===""|| lastname.length > 50){
+errorMessages += "<br>Last name is required and may contain only letters and may not exceed 50 character";}
+else{
+validLastname= true;}
 
-    if(atpos < 1 || dotpos<atpos +2 || dotpos+2 >= userEmail.length){
-    errorMessages += "<br>Invalid email";}
-    else{
-        validEmail = true;}
+//EMAIL VALLIDATION//
+if(atpos < 1 || dotpos<atpos +2 || dotpos+2 >= userEmail.length){
+errorMessages += "<br>Invalid email";}
+else{
+validEmail = true;}
 
-    if (/^[a-zA-Z]+$/.test (phone) ||phone==="null" ||phone==="" ||phone.length > 15){
-    errorMessages += "<br>Phone number is required and should be less than 15 characters";}
-    else{
-     validPhone = true;}
+//PHONE VALLIDATION//
+if (/^[a-zA-Z]+$/.test (phone) ||phone==="null" ||phone==="" ||phone.length > 15){
+errorMessages += "<br>Phone number is required and should be less than 15 characters";}
+else{
+validPhone = true;}
 
+//USERNAME VALLIDATION//
 if(username==="null" || username==="" || username > 12){
 errorMessages += "<br> Username is required and may not exceed 12 character";}
 else {
 validUsername = true;}
 
-if(password==="null" || password==="" || password > 7){
+//PASSWORD VALLIDATION//
+if(password==="null" || password==="" || password > 7 ||!/[a-z]/.test (password) || !/[A-Z]/.test (password) || !/[0-9]/.test (password) || !/[\!\*\$\#\%\.\,\&\?\-\_]/.test(password)) {
 errorMessages += "<br> Password is required and may not exceed 7 character";}
 else {
 validPassword = true;}
 
+
+//ADDRESS VALLIDATION//
 if(address==="null" || address===""){
 errorMessages += "<br> Address field is required";}
 else {
 validAddress = true;}
 
+//CITY VALLIDATION//
 if(city==="null" || city===""){
 errorMessages += "<br> City field is required";}
 else {
 validCity = true;}
 
+//STATE VALLIDATION//
 if(state===""){
 errorMessages += "<br> Select a state";}
 else{
 validState = true;}
 
+//COUNTRY VALLIDATION//
 if(country===""){
 errorMessages += "<br> Select a country";}
 else{
 validCountry = true;}
 
-
+//ZIPCODE VALLIDATION//
 if(country==="USA"){
 if(code.length > 5 || code==="" || code==="null"){
-    errorMessages += "<br> ZIP";}}
+    errorMessages += "<br> Zipcode required for \"USA\"";}}
 else{
     validZipcode = true;
 }
