@@ -1,0 +1,13 @@
+body {
+    height: 200px;
+    background: beige;
+  }
+.dot {
+    height: 7px; width: 7px;
+    border-radius: 4px; /* rounds corners */
+    background: rgb(224, 67, 67);
+    position: absolute;
+  }
+#button{
+font-size: medium;
+}
