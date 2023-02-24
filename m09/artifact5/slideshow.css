@@ -1,7 +1,7 @@
 body{
 background-color: bisque;
 }
-img {
+#slideshow {
     width: 400px;
     height: 400px;
     display: block;
@@ -15,4 +15,7 @@ text-align: center;
 }
 #previous, #next{
 font-size: medium;
+}
+footer{
+    text-align: center;
 }
