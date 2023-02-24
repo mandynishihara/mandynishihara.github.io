@@ -1,0 +1,18 @@
+body{
+background-color: bisque;
+}
+img {
+    width: 400px;
+    height: 400px;
+    display: block;
+    margin: auto;
+    }
+#caption{
+text-align: center;
+}
+#button{
+text-align: center;
+}
+#previous, #next{
+font-size: medium;
+}
