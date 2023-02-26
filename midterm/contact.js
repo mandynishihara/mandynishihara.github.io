@@ -104,5 +104,5 @@ else{
     document.getElementById("errorMessages").innerHTML= errorMessages;
 
     //5) return the status of each field
-    return (validFirstname && validLastname && validPhone && validUsername && validPassword && validAddress && validCity && validZipcode && validEmail && validState && validCountry && validZipcode);
+    return (validFirstname && validLastname && validEmail && validPhone && validUsername && validPassword && validAddress && validCity && validState && validCountry && validZipcode);
     }
