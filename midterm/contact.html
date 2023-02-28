@@ -29,8 +29,9 @@
 <form action="/thankyou.html" method="get"
 name="myContact" onsubmit="return validateForm();">
 <br>
-<label>First name: <input type="text" id="fname" name="fname"></label>
-<label>Last name: <input type="text" id="lname" name="lname"></label>
+<label for="fname">First name: </label><input type="text" id="fname" name="fname">
+
+<label for="lname">Last name: </label><input type="text" id="lname" name="lname">
 <br>
 <br>
 
@@ -39,11 +40,14 @@ name="myContact" onsubmit="return validateForm();">
 <label for="phone">Phone: </label><input type="text" id="phone" name="phone">
 
 <br><br>
-<label>Username: <input type="text" id="user" name="user"> </label>
-<label>Password: <input type="password" id="pass" name="pass"> </label>
+<label for="user">Username: </label><input type="text" id="user" name="user"> 
+
+<label for="pass">Password:  </label><input type="password" id="pass" name="pass">
 <br><br>
-<label>Address: <input type="text" id="adrs" name="adrs"></label>
-<label>City: <input type="text" id="city" name="city"></label>
+<label for="adrs">Address: </label><input type="text" id="adrs" name="adrs">
+
+<label for="city">City: </label><input type="text" id="city" name="city">
+
 <label for="state">State: </label>
 <select name="state" id="state">
     <option value="" selected="selected">[Select a state]</option>
@@ -112,15 +116,15 @@ name="myContact" onsubmit="return validateForm();">
     <option value="Norway">Norway</option>
     <option value="USA">USA</option>
 </select>
-<label>Zipcode: <input type="text" id="zip" name="zip"></label>
+<label for="zip">Zipcode: </label><input type="text" id="zip" name="zip">
 <br><br>
-<label>Additional Comments:<br>
+<label for="comments">Additional Comments:</label><br>
 <textarea name="comments" cols="18" rows="5"></textarea>
-</label>
+
 
 <br><br>
-<input type="submit" value="Submit">
-<br>
+<input type="submit" name="submit" value="submit">
+
 </form>
 </div>
 </div>
