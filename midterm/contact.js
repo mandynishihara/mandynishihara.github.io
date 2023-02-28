@@ -98,7 +98,9 @@ if(code.length > 5 || code==="" || code==="null"){
     errorMessages += "<br> Zipcode required for USA";}
 else{
     validZipcode = true;}}
-
+else{
+    validZipcode =true;
+}
 
     //4) send error messages 
     document.getElementById("errorMessages").innerHTML= errorMessages;
