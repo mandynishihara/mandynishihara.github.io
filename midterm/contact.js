@@ -95,10 +95,10 @@ validCountry = true;}
 //ZIPCODE VALLIDATION//
 if(country==="USA"){
 if(code.length > 5 || code==="" || code==="null"){
-    errorMessages += "<br> Zipcode required for \"USA\"";}}
+    errorMessages += "<br> Zipcode required for USA";}
 else{
-    validZipcode = true;
-}
+    validZipcode = true;}}
+
 
     //4) send error messages 
     document.getElementById("errorMessages").innerHTML= errorMessages;
