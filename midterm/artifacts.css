@@ -64,6 +64,10 @@ background-color: #dedbd1;
     }
 .column4{
 background-color: #dedbd1;
+background-image: url("/midterm/chessboard.png");
+background-size:contain;
+background-repeat: no-repeat;
+background-position: right;
 }
 .column5{
 background-color: #dedbd1;
