@@ -3,7 +3,6 @@
     font-weight: normal;
     font-style: normal;
     color: #000000;
-    text-align: center;
 }
 body {
     width: 70%;
@@ -26,11 +25,15 @@ li {
     background-color: #efefef;
     padding: 0.5em 0;
     font-size: medium;
+    text-align: center;
 }
 #feature, .article {
-    height: 10em;
+    height: auto;
     margin-bottom: 1em;
-    background-color: #efefef;}
+    background-color: #efefef;
+    word-spacing: 1px;
+    line-height: 16px;
+}
 #content{
 background-color: #a5a58d;
 }
@@ -60,8 +63,12 @@ background-color: #dedbd1;
 body{
 background-image: url("https://cdn.wallpapersafari.com/54/35/AXfS8j.jpg");
 }
-h1 {
+h1, h2 {
 font-family: 'MetropolisRegular';
    font-weight: normal;
    font-style: normal;
+   text-align: center;
 } 
+.refl{
+margin-left: 3%;
+}
