@@ -43,10 +43,10 @@ background-color: #c8bb9e;
 }
 #feature{
 background-color: #eddcd2;
-background-image: url("");
+background-image: url("/midterm/smalldog.gif");
 background-position: right;
 background-repeat: no-repeat;
-background-size: contain;
+background-size: contain; 
 }
 .column1{
 background-color: #dedbd1;
