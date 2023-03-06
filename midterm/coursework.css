@@ -45,11 +45,11 @@ margin-top: 2%;
 background-color: #c8bb9e;
 }
 #feature{
-background-color: #eddcd2;
+background-color: #eddcd2;/*
 background-image: url("https://www.pngplay.com/wp-content/uploads/13/Minimalist-Aesthetics-PNG-Photo-Image.png");
 background-position: right;
 background-repeat: no-repeat;
-background-size: contain;
+background-size: contain;*/
 }
 .column1{
 background-color: #dedbd1;
@@ -71,4 +71,8 @@ font-family: 'MetropolisRegular';
 } 
 .refl{
 margin-left: 3%;
+}
+img{
+width: 20%;
+margin-left: 75%;
 }
