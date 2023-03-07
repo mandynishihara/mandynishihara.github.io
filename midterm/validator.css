@@ -191,3 +191,6 @@ float: right;
 .box, .left1, .right1, .left2, .right2, .left3, .right3, .left4, .right4, .left5, .right5, .left6 .right6, .left7, .right7, .left8, .right8{
 padding: 10px;
 }
+#datetime{
+    text-align: center;
+    }

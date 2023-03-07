@@ -74,3 +74,6 @@ font-family: 'MetropolisRegular';
     color:red;
     font-style: italic;
  }
+ #datetime{
+    text-align: center;
+    }

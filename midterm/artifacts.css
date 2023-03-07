@@ -88,3 +88,6 @@ font-family: 'MetropolisRegular';
 text-align: left;
 margin-right: 50%;
 }
+#datetime{
+    text-align: center;
+    }
