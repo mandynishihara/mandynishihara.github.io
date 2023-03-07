@@ -61,6 +61,7 @@ height: 17em;
 background-color: #dedbd1;
 float: right;
 margin-right: 10%;
+height: 17em;
 }
 .column3{
 background-color: #dedbd1;
@@ -82,12 +83,16 @@ font-family: 'MetropolisRegular';
     }
 .right{
     background-color: #f4c2fc;
-    background-image: url("https://i.ebayimg.com/images/g/4-IAAOSwwcJjaMZ-/s-l500.jpg");
+    background-image: url("/midterm/s-l500.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     float: right;
     }
 .right, .left{
-        width: 164px;
-        height: 155px;
+width: 164px;
+height: 155px;
     }
+iframe{
+    width: 320px;
+    height: 150px;
+}
