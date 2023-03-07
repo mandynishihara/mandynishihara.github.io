@@ -72,4 +72,22 @@ h1 {
 font-family: 'MetropolisRegular';
    font-weight: normal;
    font-style: normal;
-} 
+}
+.left{
+    background-color:  #fcf4c2;
+    background-image: url("/m09/artifact5/images/cub.jpg");
+    background-size: cover ;
+    background-repeat: no-repeat;
+    float: left;
+    }
+.right{
+    background-color: #f4c2fc;
+    background-image: url("thankyoucss.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: right;
+    }
+.right, .left{
+        width: 150px;
+        height: 150px;
+    }
