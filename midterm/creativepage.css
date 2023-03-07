@@ -75,19 +75,19 @@ font-family: 'MetropolisRegular';
 }
 .left{
     background-color:  #fcf4c2;
-    background-image: url("/m09/artifact5/images/cub.jpg");
+    background-image: url("https://www.sortiesdvd.com/itunesimages/tv/saison/1367.jpg");
     background-size: cover ;
     background-repeat: no-repeat;
     float: left;
     }
 .right{
     background-color: #f4c2fc;
-    background-image: url("thankyoucss.png");
+    background-image: url("https://i.ebayimg.com/images/g/4-IAAOSwwcJjaMZ-/s-l500.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     float: right;
     }
 .right, .left{
-        width: 150px;
-        height: 150px;
+        width: 164px;
+        height: 155px;
     }
