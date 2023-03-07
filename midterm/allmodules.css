@@ -30,7 +30,10 @@ li {
 #feature, .article {
     height: 10em;
     margin-bottom: 1em;
-    background-color: #efefef;}
+    background-color: #efefef;
+    word-spacing: 1px;
+    line-height: 16px;
+}
 #content{
 background-color: #a5a58d;
 }
