@@ -5,6 +5,10 @@
     color: #000000;
     text-align: center;
 }
+:focus{
+    outline-color: rgb(192, 3, 44);
+    outline-width: 2px;
+    }
 body {
     width: 70%;
     margin: 0 auto;}
