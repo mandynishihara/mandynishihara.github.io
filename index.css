@@ -5,6 +5,9 @@
     color: #000000;
     text-align: center;
 }
+input:focus-visible{
+    outline: 10px green;
+}
 body {
     width: 70%;
     margin: 0 auto;}
@@ -42,8 +45,6 @@ background-color: #a5a58d;
 #nav{
 background-color: #c8bb9e;
 margin-top: 2%;
-z-index: 2147483646;
-position: relative;
 }
 #footer{
 background-color: #c8bb9e;
