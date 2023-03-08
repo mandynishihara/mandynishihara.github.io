@@ -22,8 +22,8 @@ body {
 li {
     display: inline;
 padding: 0.5em;
-z-index: 2147483646;
-position: relative;}
+}
+
 #nav, #footer {
     background-color: #efefef;
     padding: 0.5em 0;
@@ -42,6 +42,8 @@ background-color: #a5a58d;
 #nav{
 background-color: #c8bb9e;
 margin-top: 2%;
+z-index: 2147483646;
+position: relative;
 }
 #footer{
 background-color: #c8bb9e;
