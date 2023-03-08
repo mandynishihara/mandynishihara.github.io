@@ -85,11 +85,19 @@ font-family: 'MetropolisRegular';
     background-repeat: no-repeat;
     float: left;
     }
+
+#office{
+        width: 164px;
+        height: 155px;
+        float: right;
+        }
+
 .right{
-    background-color: #f4c2fc;
-    background-image: url("/midterm/s-l500.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
+    float: right;
+}
+    #los{
+    width: 164px;
+    height: 155px;
     float: right;
     }
 .right, .left{
