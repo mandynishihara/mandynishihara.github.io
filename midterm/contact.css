@@ -28,7 +28,6 @@ li {
     font-size: medium;
 }
 #feature, .article {
-    height: 10em;
     margin-bottom: 1em;
     background-color: #efefef;}
 #content{
@@ -42,12 +41,12 @@ margin-top: 2%;
 background-color: #c8bb9e;
 }
 #feature{
-background-color: #eddcd2;
+background-color: #eddcd2; /*
 background-image: url("https://www.pngplay.com/wp-content/uploads/13/Minimalist-Aesthetics-PNG-Photo-Image.png");
 background-position: right;
 background-repeat: no-repeat;
 background-size: contain;
-height: max-content;
+height: max-content;*/
 }
 .column1{
 background-color: #dedbd1;
@@ -77,3 +76,7 @@ font-family: 'MetropolisRegular';
  #datetime{
     text-align: center;
     }
+#dog{
+        width: 20%;
+        margin-left: 75%;
+        }
