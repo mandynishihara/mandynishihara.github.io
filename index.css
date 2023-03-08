@@ -5,9 +5,6 @@
     color: #000000;
     text-align: center;
 }
-input:focus-visible{
-    outline: 10px green;
-}
 body {
     width: 70%;
     margin: 0 auto;}
@@ -81,4 +78,8 @@ font-family: 'MetropolisRegular';
     }
 #datetime{
    text-align: center;
+}
+li:focus-visible{
+z-index: 2147483646;
+position: relative;
 }
