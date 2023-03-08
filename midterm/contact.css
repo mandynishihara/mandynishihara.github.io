@@ -5,6 +5,10 @@
     color: #000000;
     text-align: center;
 }
+*:focus-visible{
+outline: 2px;
+background-color: lightcoral;
+}
 body {
     width: 70%;
     margin: 0 auto;}
