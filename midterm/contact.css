@@ -5,9 +5,9 @@
     color: #000000;
     text-align: center;
 }
-*:focus-visible{
-outline: 2px;
-background-color: lightcoral;
+:focus{
+outline-color: rgb(192, 3, 44);
+outline-width: 2px;
 }
 body {
     width: 70%;
