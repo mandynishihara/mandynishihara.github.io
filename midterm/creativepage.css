@@ -95,6 +95,7 @@ height: 155px;
 iframe{
     width: 320px;
     height: 150px;
+    border: 0px;
 }
 #datetime{
     text-align: center;
