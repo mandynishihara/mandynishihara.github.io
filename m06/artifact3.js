@@ -34,12 +34,20 @@ function createRhombus(pHeight, pColorEven, pColorOdd, pSymbol) {
     document.getElementById("upRight").innerHTML = rLine;
     }
     
+
+
     function downLeft(pHeight, pColorEven, pColorOdd, pSymbol){
         var rLine ="";
-        for (i=pHeight; i>0;i--){
+        for (i=pHeight;i>0;i--){
         rLine +="<p>";
+        
+        for(x=1;x<=pHeight - i;x++){
+           
+            rLine +="<span class='space'>" + pSymbol +"</span>";
+        }
+
         //Create each line on the Rhombus
-        for(j=0;j<=pHeight;j++){
+        for(j=x;j<=pHeight;j++){
         
         //Is the position even or odd so we change the color
         if (j%2)
