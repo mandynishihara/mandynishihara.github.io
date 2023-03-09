@@ -65,6 +65,10 @@ background-position: right;
 }
 .column3{
 background-color: #dedbd1;
+background-image: url("/midterm/");
+background-size:contain;
+background-repeat: no-repeat;
+background-position: right;
     }
 .column4{
 background-color: #dedbd1;
