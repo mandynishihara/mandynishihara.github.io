@@ -63,8 +63,6 @@ height: 17em;
 }
 .column2{
 background-color: #dedbd1;
-float: right;
-margin-right: 10%;
 height: 17em;
 }
 .column3{
@@ -85,23 +83,10 @@ font-family: 'MetropolisRegular';
     background-repeat: no-repeat;
     float: left;
     }
-
 #office{
-        width: 155px;
-        height: 155px;
-        float: right;
-        }
-.right{
-float: right;
-}
-#los{
-    width: 155px;
-    height: 155px;
-    }
-.right, .left{
 width: 155px;
 height: 155px;
-    }
+}
 iframe{
     width: 320px;
     height: 150px;
