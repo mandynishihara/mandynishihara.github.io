@@ -87,18 +87,16 @@ font-family: 'MetropolisRegular';
     }
 
 #office{
-        width: 160px;
+        width: 155px;
         height: 155px;
         float: right;
         }
-
 .right{
-    float: right;
+float: right;
 }
-    #los{
-    width: 160px;
+#los{
+    width: 155px;
     height: 155px;
-    float: right;
     }
 .right, .left{
 width: 164px;
